@@ -1,4 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  background: #fafafa;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'K2D', sans-serif;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: "Counter TextChange"
+                        "AddSong AddSong";
 }

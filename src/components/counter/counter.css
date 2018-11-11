@@ -1,0 +1,22 @@
+.containerCOUNTER {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 30% 70%;
+  grid-area: Counter;
+}
+
+.containerCOUNTER button {
+  width: 90px;
+  color: white;
+  font-size: 25px;
+  background: rgba(0, 0, 0, .7);
+  border: none;
+  border-radius: 7px;
+  outline: none
+}
+
+.containerCOUNTER span {
+  color: #19d7d1;
+  font-size: 80px;
+  font-family: 'K2D', sans-serif;
+}

@@ -1,5 +1,6 @@
 export default {
-  Songs: [
+  count: 0,
+  songs: [
     {
       title: 'I Can Only Imagine',
       author: 'MercyMe'

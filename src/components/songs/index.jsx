@@ -18,12 +18,14 @@ class Songs extends Component {
     const { songs } = this.props
     return (
       <div className="containerFORM">
+        <h3>Add Songs</h3>
         <form onSubmit={this.handleFormSubmit}>
           <input 
             type="text" 
             name="username" 
             ref={elemente => (this.input = elemente)}
             placeholder="Name of the song"
+            formMethod="post"
           />
         </form>
         <div className="containerFORM-songs">
