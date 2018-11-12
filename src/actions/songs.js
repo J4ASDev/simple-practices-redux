@@ -1,6 +1,6 @@
 import { ADD_SONG } from './types'
 
-export function Songs(singing){
+export function addSongs(singing){
   return {
     type: ADD_SONG,
     payload: {

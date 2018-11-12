@@ -8,10 +8,8 @@ import './songs.css'
 class Songs extends Component {
   
   handleFormSubmit = (event) => {
-    const { Songs } = this.props.actions
     event.preventDefault()
-  
-    Songs(this.input.value)
+    this.props.actions.addSongs(this.input.value)
   }
   
   render() {

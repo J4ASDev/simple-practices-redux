@@ -1,5 +1,8 @@
 export default {
-  count: 0,
+  changeText: false,
+  count: {
+    number: 0
+  },
   songs: [
     {
       title: 'I Can Only Imagine',

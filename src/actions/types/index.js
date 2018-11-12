@@ -1,3 +1,5 @@
-export const ADD_SONG = 'ADD_SONG'
 export const INCREMENT = 'INCREMENT'
 export const DECREMENT = 'DECREMENT'
+export const CHANGE_TEXT_TRUE = 'CHANGE_TEXT_TRUE'
+export const CHANGE_TEXT_FALSE = 'CHANGE_TEXT_FALSE'
+export const ADD_SONG = 'ADD_SONG'

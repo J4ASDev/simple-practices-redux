@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'
 import * as actions from '../../actions/count'
 import { bindActionCreators } from 'redux'
 
@@ -8,7 +8,7 @@ import './counter.css'
 class Counter extends Component {
   
   render() {
-    const { actions: { onIncrement, onDecrement }, count } = this.props
+    const { actions: { onIncrement, onDecrement }, number } = this.props
     return (
       <div className="containerCOUNTER">
         <div>  
@@ -16,7 +16,7 @@ class Counter extends Component {
         </div>
         <div>
           <button onClick={onDecrement}> - </button>
-          <span>{count}</span>
+          <span>{number}</span>
           <button onClick={onIncrement}> + </button>
         </div>
       </div>
@@ -25,10 +25,10 @@ class Counter extends Component {
 }
 
 function mapStateToProps (state) {
-  const { count } = state
+  const { count: { number } } = state
 
   return {
-    count
+    number
   }
 }
 

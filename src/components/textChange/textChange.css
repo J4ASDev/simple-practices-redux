@@ -1,0 +1,30 @@
+.containerTEXTCHANGE {
+  display: grid;
+  justify-content: center;
+  grid-area: TextChange;
+}
+
+.containerTEXTCHANGE div {
+  display: grid;
+  justify-items: center;
+}
+
+.containerTEXTCHANGE h5 {
+  color: #19d7d1;
+  font-size: 25px;
+  font-family: 'K2D', sans-serif;
+  margin: 0;
+}
+
+.containerTEXTCHANGE button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'K2D', sans-serif;
+  border: none;
+  color: white;
+  background: rgba(0, 0, 0, .7);
+  margin: 0;
+  border-radius: 7px;
+  outline: none;
+}
