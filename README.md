@@ -1,6 +1,6 @@
-# Simple practices redux
+# Simple redux
 
-It is a basic project where CSS Grid Layout is applied to stylize each of the mini-projects. The repository is divided into several sectors (mini-projects):
+In this branch you can see easier examples of redux.
 
 * Add Songs
 * Counter
